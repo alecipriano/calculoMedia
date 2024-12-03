@@ -1,5 +1,5 @@
 let alunos = [
-	["André", 6.1, 5.7, 3],
+	 ["André", 6.1, 5.7, 3],
     ["Alex", 8.5, 6.7, 5],
     ["Cibele", 6.5, 7.7, 9],
     ["Paty", 5.7, 6.5, 5],
@@ -9,15 +9,15 @@ let alunos = [
 ]
 
 for (let i = 0; i < alunos.length; i++){
-	let nome = alunos[i][0];
+	 let nome = alunos[i][0];
     let notaUm = alunos[i][1];
     let notaDois = alunos[i][2];
     let notaTres = alunos[i][3];
     let mensagem = "";
-    
-    
+        
     function avaliarAluno(notaUm,notaDois, notaTres){
       let media = 0;
+      
       media = ((notaUm + notaDois + notaTres) / 3).toFixed(1);
     
       if (media <  5 ){
@@ -34,6 +34,6 @@ for (let i = 0; i < alunos.length; i++){
     
     }
   
-  avaliarAluno(notaUm,notaDois, notaTres);
+  avaliarAluno(notaUm, notaDois, notaTres);
     
 }
